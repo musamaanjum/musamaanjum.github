@@ -3,51 +3,55 @@
   <div class="row justify-content-center">
     <div class="col-lg-12 text-center">
       <h1 class="mt-0">{{ .Title }}</h1>
+      <h2 class="mt-0">{{ .Description }}</h2>
     </div>
     <div class="col-lg-9 col-xl-8 text-center">
       <p class="lead">{{ .Params.lead | safeHTML }}</p>
-      <a class="btn btn-primary btn-lg px-4 mb-2" href="/docs/{{ if .Site.Params.options.docsVersioning }}{{ .Site.Params.docsVersion }}/{{ end }}prologue/introduction/" role="button">{{ i18n "get-started" }}</a>
-      <p class="meta">Open-source MIT Licensed. <a href="https://github.com/h-enk/doks">GitHub v{{ $data := getJSON "/package.json" }}{{ $data.version }}</a></p>
+      <!--a class="btn btn-primary btn-lg px-4 mb-2" href="/docs/{{ if .Site.Params.options.docsVersioning }}{{ .Site.Params.docsVersion }}/{{ end }}prologue/introduction/" role="button">Get Started</a-->
+      <a class="btn btn-primary btn-lg px-4 mb-2" href="https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/log/?qt=grep&q=Signed-off-by%3A+Muhammad+Usama+Anjum" role="button">Linux Kernel Contributions</a>
+      <br>
+      <a class="btn btn-primary btn-lg px-4 mb-2" href="https://github.com/musamaanjum" role="button">Github</a>
+      <a class="btn btn-primary btn-lg px-4 mb-2" href="https://www.linkedin.com/in/musamaanjum/" role="button">LinkedIn</a>
+      <a class="btn btn-primary btn-lg px-4 mb-2" href="https://twitter.com/musamanjum" role="button">Twitter</a>
+      <!--p class="meta">Open-source MIT Licensed. <a href="https://github.com/h-enk/doks">GitHub v{{ $data := getJSON "/package.json" }}{{ $data.version }}</a></p-->
     </div>
   </div>
 </section>
 {{ end }}
 
 {{ define "sidebar-prefooter" }}
-  {{ if eq $.Site.Language.LanguageName "English" }}
-  <section class="section section-sm">
-    <div class="container">
-      <div class="row justify-content-center text-center">
-        <div class="col-lg-5">
-          <h2 class="h4">Security aware</h2>
-          <p>Get A+ scores on <a href="https://observatory.mozilla.org/analyze/doks.netlify.app">Mozilla Observatory</a> out of the box. Easily change the default Security Headers to suit your needs.</p>
-        </div>
-        <div class="col-lg-5">
-          <h2 class="h4">Fast by default ⚡️</h2>
-          <p>Get 100 scores on <a href="https://googlechrome.github.io/lighthouse/viewer/?gist=59aafe464a68f8bc30b8e9a636d5b053">Google Lighthouse</a> by default. Doks removes unused css, prefetches links, and lazy loads images.</p>
-        </div>
-        <div class="col-lg-5">
-          <h2 class="h4">SEO-ready</h2>
-          <p>Use sensible defaults for structured data, open graph, and Twitter cards. Or easily change the SEO settings to your liking.</p>
-        </div>
+<section class="section section-sm">
+  <div class="container">
+    <div class="row justify-content-center text-center">
+      <div class="col-lg-5">
+        <h2 class="h4">60+ patches in Linux Kernel</h2>
+        <p>Made 60+ Linux Kernel <a href="https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/log/?qt=grep&q=Signed-off-by%3A+Muhammad+Usama+Anjum">contributions</a> to Linux Kernel</p>
       </div>
-      <div class="row justify-content-center text-center">
-        <div class="col-lg-5">
-          <h2 class="h4">Full text search</h2>
-          <p>Search your Doks site with FlexSearch. Easily customize index settings and search options to your liking.</p>
-        </div>
-        <div class="col-lg-5">
-          <h2 class="h4">Page layouts</h2>
-          <p>Build pages with a landing page, blog, or documentation layout. Add custom sections and components to suit your needs.</p>
-        </div>
-        <div class="col-lg-5">
-          <h2 class="h4">Dark mode</h2>
-          <p>Switch to a low-light UI with the click of a button. Change colors with variables to match your branding.</p>
-        </div>
+      <div class="col-lg-5">
+        <h2 class="h4">Speaker OSS EU 2022⚡️</h2>
+        <p>Gave talk at Open Source Summit Europe 2022 <a href="https://www.credly.com/badges/ac8ed181-7675-4c04-9aa2-ec0aa0a8acab/public_url">Open Source Summit Europe 2022</a></p>
+      </div>
+      <div class="col-lg-5">
+        <h2 class="h4">Experienced Developer</h2>
+        <p>4+ years of Professional development experience</p>
       </div>
     </div>
-  </section>
-  {{ end }}
+    <div class="row justify-content-center text-center">
+      <div class="col-lg-5">
+        <h2 class="h4">OSS Developer</h2>
+        <p>Worked on several different open source software (Linux, KernelCI and Syzbot etc) </p>
+      </div>
+      <div class="col-lg-5">
+        <h2 class="h4">Upstream Experience</h2>
+        <p>Extensive upstream experience on working with community and helping others as well</p>
+      </div>
+      <div class="col-lg-5">
+        <h2 class="h4">BS and MS</h2>
+        <p>Done BS and MS in Electrical Engineering with Specialization in Computer Science</p>
+      </div>
+    </div>
+  </div>
+</section>
 {{ end }}
 
 {{ define "sidebar-footer" }}
