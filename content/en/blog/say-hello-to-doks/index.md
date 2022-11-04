@@ -1,17 +1,17 @@
 ---
-title: "Say hello to Doks 👋"
-description: "Introducing Doks, a Hugo theme helping you build modern documentation websites that are secure, fast, and SEO-ready — by default."
-excerpt: "Introducing Doks, a Hugo theme helping you build modern documentation websites that are secure, fast, and SEO-ready — by default."
-date: 2020-11-04T09:19:42+01:00
-lastmod: 2020-11-04T09:19:42+01:00
+title: "Hello World👋"
+description: "Hello world of "
+excerpt: "Welcome to my blog"
+date: 2022-11-04T09:19:42+01:00
+lastmod: 2022-11-04T09:19:42+01:00
 draft: false
 weight: 50
-images: []
+images: [hello.jpg]
 categories: ["News"]
-tags: ["security", "performance", "SEO"]
-contributors: ["Henk Verlinde"]
+tags: ["Hello World Blog", "First Blog", "SEO"]
+contributors: ["Muhammad Usama Anjum"]
 pinned: false
 homepage: false
 ---
 
-Introducing Doks, a Hugo theme helping you build modern documentation websites that are secure, fast, and SEO-ready — by default.
+Hello, I'm Linux Kernel Engineer. I'm currently work for Collabora.

@@ -1,10 +1,10 @@
 # Meta Data for SEO
 
 ## Homepage
-title = "Doks"
-titleSeparator = "-"
-titleAddition = "Modern Documentation Theme"
-description = "Doks is a Hugo theme for building secure, fast, and SEO-ready documentation websites, which you can easily update and customize."
+title = "Muhammad Usama Anjum"
+titleSeparator = " - "
+titleAddition = "Website"
+description = "Muhammad Usama Anjum is Linux Kernel Hacker."
 
 ## Documentation
 # docsVersion = "0.3"
@@ -24,9 +24,9 @@ twitterCreator = "@henkverlinde"
 schemaType = "Organization"
 schemaName = "Doks"
 schemaAuthor = "Henk Verlinde"
-schemaAuthorTwitter = "https://twitter.com/henkverlinde"
-schemaAuthorLinkedIn = "https://www.linkedin.com/in/henkverlinde/"
-schemaAuthorGitHub = "https://github.com/h-enk"
+schemaAuthorTwitter = "https://twitter.com/MUsamAnjum"
+schemaAuthorLinkedIn = "https://linkedin.com/in/musamaanjum"
+schemaAuthorGitHub = "https://github.com/MUsamaAnjum"
 schemaLocale = "en-US"
 schemaLogo = "logo-doks.png"
 schemaLogoWidth = 512
@@ -34,9 +34,9 @@ schemaLogoHeight = 512
 schemaImage = "doks.png"
 schemaImageWidth = 1280
 schemaImageHeight = 640
-schemaTwitter = "https://twitter.com/getdoks"
-schemaLinkedIn = ""
-schemaGitHub = "https://github.com/h-enk/doks"
+schemaTwitter = "https://twitter.com/MUsamAnjum"
+schemaLinkedIn = "https://linkedin.com/in/musamaanjum"
+schemaGitHub = "https://github.com/MUsamaAnjum"
 schemaSection = "blog"
 
 ## Sitelinks Search Box
@@ -65,10 +65,10 @@ defaultImage = "default-image.png" # put in `./assets/images/`
 fillImage = "1270x740 Center" # normalize image size
 
 # Footer
-footer = "Powered by <a class=\"text-muted\" href=\"https://www.netlify.com/\">Netlify</a>, <a class=\"text-muted\" href=\"https://gohugo.io/\">Hugo</a>, and <a class=\"text-muted\" href=\"https://getdoks.org/\">Doks</a>"
+footer = "Copyright (c) 2022"
 
 # Feed
-copyRight = "Copyright (c) 2020-2021 Henk Verlinde"
+copyRight = "Copyright (c) 2022 Muhammad Usama Anjum"
 
 # Alert
 alert = false
