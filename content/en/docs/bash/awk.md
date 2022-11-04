@@ -13,8 +13,6 @@ weight: 130
 toc: false
 ---
 
-{{< alert icon="💡" text="The name of AWK is derived from the surnames of its authors: Alfred Aho, Peter Weinberger, and Brian Kernighan." />}}
-
 #### Print Lines Containing tom, jerry AND vivek
 ```bash
 awk '/tom|jerry|vivek/' /etc/passwd
