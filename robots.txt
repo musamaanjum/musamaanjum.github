@@ -1,1 +1,4 @@
 User-agent: *
+Allow: /
+
+Sitemap: https://musamaanjum.github.io/sitemap.xml
